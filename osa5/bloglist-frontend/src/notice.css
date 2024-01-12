@@ -1,0 +1,14 @@
+.noticeBox {
+    width: 800px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.errorNotice,.infoNotice {
+    border: solid 6px;
+    padding: 1em;
+}
+.errorNotice { border-color: red; }
+.infoNotice { border-color: green; }
+      
